@@ -1,0 +1,238 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@model Inspinia_MVC5.Models.Ecrit_Fact
+
+
+@{
+    ViewBag.Title = "Details";
+
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-sm-4">
+        <h2>Details</h2>
+        <ol class="breadcrumb">
+            <li>
+                @Html.ActionLink("List", "Index")
+            </li>
+            <li class="active">
+                <strong>Details</strong>
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Details Ecrit_Fact</h5>
+                </div>
+                <div class="ibox-content">
+
+
+				    <dl class="dl-horizontal">
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.N_DAC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.N_DAC)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Libelle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Libelle)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Etat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Etat)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type_Cotis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type_Cotis)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Assiette)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assiette)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Taux)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Taux)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Debit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Debit)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Credit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Credit)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nb_Salarie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nb_Salarie)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Solde)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Solde)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mont_Vent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mont_Vent)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Code_Usager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code_Usager)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cotisant.Rais_Soc_Fr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cotisant.Rais_Soc_Fr)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nature.Libelle_Fr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nature.Libelle_Fr)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Periode.DAC_Envoye)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Periode.DAC_Envoye)
+        </dd>
+
+
+    </dl>
+
+
+	
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }, new { @class = "btn btn-primary"})
+    @Html.ActionLink("Back to List", "Index",null , new { @class = "btn btn-white"})
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

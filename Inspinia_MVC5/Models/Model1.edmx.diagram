@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3593a4a556f34e9db82a66441184841d" Name="Diagram1">
+        <EntityTypeShape EntityType="CacobatphModel.C__MigrationHistory" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Affiliation" Width="1.5" PointX="8.25" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Agence" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Agence_Banq" Width="1.5" PointX="3.75" PointY="69.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Annee_CP" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.AspNetRole" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.AspNetUserClaim" Width="1.5" PointX="12.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.AspNetUserLogin" Width="1.5" PointX="12.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.AspNetUser" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Banque" Width="1.5" PointX="1.5" PointY="69.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Bomop" Width="1.5" PointX="5.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Bordereau" Width="1.5" PointX="9" PointY="106.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Bordereau_Rmp" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Canal" Width="1.5" PointX="1.5" PointY="65.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cert_Bleu" Width="1.5" PointX="7.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cert_Bleu_Temp" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Chantier_CI" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ChantierHistorique" Width="1.5" PointX="9.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Chantier" Width="1.5" PointX="11.25" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ChantiersSupprime" Width="1.5" PointX="15.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Classe" Width="1.5" PointX="0.75" PointY="86.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Competence" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Compte" Width="1.5" PointX="1.5" PointY="77.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Conge_Annuel" Width="1.5" PointX="16" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.constat" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ContacteInfo" Width="1.5" PointX="15.75" PointY="97.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ContacteInfoPiéce" Width="1.5" PointX="12.75" PointY="126.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Contentieu" Width="1.5" PointX="8.25" PointY="73.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Contrainte" Width="1.5" PointX="8.25" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Control" Width="1.5" PointX="8.25" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Convocation" Width="1.5" PointX="13.5" PointY="73.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ConvocationHistorique" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ConvocationPiece" Width="1.5" PointX="10.5" PointY="120.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ConvocationPieceHistorique" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ConvocationPieceSupprime" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ConvocationSupprime" Width="1.5" PointX="17.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cot_Classe" Width="1.5" PointX="3" PointY="86.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cotisant" Width="1.5" PointX="6" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cotisant_Account" Width="1.5" PointX="11.25" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Cotisant_History" Width="1.5" PointX="8.25" PointY="88" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.CotisantNonAff" Width="1.5" PointX="9" PointY="96.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.DAC_Controle" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.DA" Width="1.5" PointX="13" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.DataFile" Width="1.5" PointX="11.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Declarat" Width="1.5" PointX="14.25" PointY="86.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Decompte" Width="1.5" PointX="15.25" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Decompte_Archive" Width="1.5" PointX="18.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Decompte_CI" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Detail_Bord_Rmp" Width="1.5" PointX="19.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ecrit_Enc" Width="1.5" PointX="14.25" PointY="80.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ecrit_Fact" Width="1.5" PointX="14.25" PointY="90.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Employeur" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Employeur_CI" Width="1.5" PointX="19.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Encaiss" Width="1.5" PointX="11.25" PointY="92" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.EncaissWeb" Width="1.5" PointX="4.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ent_Fact" Width="1.5" PointX="11.25" PointY="77.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.EntetPlanCharge" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ENTREPRISE" Width="1.5" PointX="8.25" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ENTREPRISEHistorique" Width="1.5" PointX="20.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.EntrepriseNonAff" Width="1.5" PointX="21.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ENTREPRISESupprimee" Width="1.5" PointX="9.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Event" Width="1.5" PointX="21.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Exploitation" Width="1.5" PointX="8.25" PointY="138.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheControleHistorique" Width="1.5" PointX="6.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheControleP" Width="1.5" PointX="10.5" PointY="126.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheControleSupprime" Width="1.5" PointX="22.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheVisite" Width="1.5" PointX="13.5" PointY="96.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheVisiteHistorique" Width="1.5" PointX="22.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.FicheVisiteSupprime" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Hist_Das" Width="1.5" PointX="0.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.HistModifAffilSal" Width="1.5" PointX="23.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Identification" Width="1.5" PointX="23.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Infraction" Width="1.5" PointX="17.25" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Instance_CI" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Journee" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Jours_Feries" Width="1.5" PointX="2.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS" Width="1.5" PointX="16" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS_Info" Width="1.5" PointX="13" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS_Info_Archive" Width="1.5" PointX="13" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS_Info_Err_Ok" Width="1.5" PointX="13" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS_Info_Err_Rejet" Width="1.5" PointX="13" PointY="55.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_DAS_Tmp" Width="1.5" PointX="24.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ligne_Fact" Width="1.5" PointX="17.25" PointY="86" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.ListeSalarier" Width="1.5" PointX="8.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Main_Levee" Width="1.5" PointX="8.25" PointY="146.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Mandat" Width="1.5" PointX="18.25" PointY="48.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Mise_Demeure" Width="1.5" PointX="8.25" PointY="149.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Mise_Demeure_Detail" Width="1.5" PointX="10.5" PointY="114.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Mise_Jour" Width="1.5" PointX="8.25" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Modif_Salarie" Width="1.5" PointX="10.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Mois" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Motif_Retour" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.MotifsInfraction" Width="1.5" PointX="8" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nap" Width="1.5" PointX="3.75" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nat_Classe" Width="1.5" PointX="3" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nationalite" Width="1.5" PointX="3.75" PointY="94.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nature" Width="1.5" PointX="0.75" PointY="80.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nature_Intemperie" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Nature_Travail" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Notif_Contrainte" Width="1.5" PointX="8.25" PointY="157.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.NotificationContrainte" Width="1.5" PointX="25.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Operation" Width="1.5" PointX="1.5" PointY="74.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Opposition" Width="1.5" PointX="8.25" PointY="161.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Opposition_Detail" Width="1.5" PointX="13.5" PointY="120.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Partiellement" Width="1.5" PointX="17.25" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Periode" Width="1.5" PointX="0.75" PointY="90.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PlannifeHistorique" Width="1.5" PointX="25.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PlannifeSupprime" Width="1.5" PointX="24.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PlanningPlanifie" Width="1.5" PointX="11.25" PointY="101.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PlanningPonctuel" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PonctuelHistorique" Width="1.5" PointX="26.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PonctuelSupprime" Width="1.5" PointX="20.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Position" Width="1.5" PointX="8.25" PointY="165.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Proc_Penale" Width="1.5" PointX="8.25" PointY="168.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvHistorique" Width="1.5" PointX="24.5" PointY="84.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvInfraction" Width="1.5" PointX="19.5" PointY="83.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvInfractionPiece" Width="1.5" PointX="15.5" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvinfractionPieceHistorique" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvinfractionPieceSupprime" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvInfractionSupprime" Width="1.5" PointX="0.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.PvRapport" Width="1.5" PointX="2.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportHistorique" Width="1.5" PointX="4.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportPieceHistorique" Width="1.5" PointX="28.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportPieceSupprime" Width="1.5" PointX="28.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportVisite" Width="1.5" PointX="21.75" PointY="81.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportVisitePieceRA" Width="1.5" PointX="10.5" PointY="141.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportVisiteRa" Width="1.5" PointX="13.5" PointY="103.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportVisitesPiece" Width="1.5" PointX="6.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RapportVisiteSupprime" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Rapprochement" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Reception_CI" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.RecpJourn" Width="1.5" PointX="10.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Reglement_Chq" Width="1.5" PointX="8.25" PointY="173.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Rejet_CI" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Routage" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Salarie" Width="1.5" PointX="13.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Salarie_Compte" Width="1.5" PointX="16" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.SalariesHistorique" Width="1.5" PointX="30.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.SalariesPieceHistorique" Width="1.5" PointX="20.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.SalariesPieceSupprime" Width="1.5" PointX="22.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.SalariesSupprime" Width="1.5" PointX="30.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Secteur" Width="1.5" PointX="1.5" PointY="97.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Session" Width="1.5" PointX="13" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Sessions_Generees" Width="1.5" PointX="15.25" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Statut" Width="1.5" PointX="3.75" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.TabGeogr" Width="1.5" PointX="3.75" PointY="100.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.TabPost" Width="1.5" PointX="30.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Taux_Cot" Width="1.5" PointX="3" PointY="90.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Totalement" Width="1.5" PointX="17.25" PointY="93.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.TypeMotifsInfra" Width="1.5" PointX="5.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.UserGroup" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.UserGroupPrest" Width="1.5" PointX="7.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.User" Width="1.5" PointX="24.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Utilisateur" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.UtilisateurPrest" Width="1.5" PointX="10" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Ville" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Wilaya" Width="1.5" PointX="9" PointY="102.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.HistEncAMJ" Width="1.5" PointX="32.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.Recap_CI" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CacobatphModel.SAConnection" Width="1.5" PointX="32.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="CacobatphModel.FK_Affiliation_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Agence_Banq_Banque" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Bordereau_Agence_Banq" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Account_Agence_Banq" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Agence_Banq" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Encaiss_Agence_Banq" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Opposition_Detail_Agence_Banq" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_DAS_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Decompte_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Info_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Info_Archive_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Info_Err_Ok_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Info_Err_Rejet_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mandat_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Session_Annee_CP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Banque_Canal" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Encaiss_Bordereau" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Canal_Compte" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Enc_Canal" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Encaiss_Canal" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Chantier_CI_Reception_CI" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Chantiers_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Chantiers_CotisantNonAff" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Chantiers_Wilaya" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Convocation_Chantiers" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_FicheVisite_Chantiers" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfraction_Chantiers" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_RapportVisite_Chantiers" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_RapportVisiteRas_Chantiers" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cot_Classe_Classe" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Classe" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Nat_Classe_Classe" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Taux_Cot_Classe" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Nature_Compte" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Conge_Annuel_Salarie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_ContacteInfo_FicheVisite" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_ContacteInfoPiéce3_FicheControleP" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Contentieux_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Contrainte_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Control_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_ConvocationPiece_ENTREPRISE" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cot_Classe_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cot_Classe_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Account_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_History_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Nap" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Nationalite" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_Statut" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Cotisant_TabGeogr" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Declarat_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Enc_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Fact_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Encaiss_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ent_Fact_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_ENTREPRISE_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Exploitation_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_Fact_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Main_Levee_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Demeure_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Demeure_Detail_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Jour_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Notif_Contrainte_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Opposition_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Opposition_Detail_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Position_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Proc_Penale_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfraction_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_RapportVisite_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Reglement_Chq_Cotisant" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Declarat_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Decompte_Salarie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Decompte_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Decompte_CI_Reception_CI" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Enc_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Enc_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Fact_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ecrit_Fact_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Encaiss_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ent_Fact_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_FicheControleP_ENTREPRISE5" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfractionPiece2_ENTREPRISE5" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_RapportVisitePieceRAS2_ENTREPRISE5" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvHistorique_Infractions" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfraction_Infraction" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfractionPiece2_Infractions" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Reception_CI_Instance_CI" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_DAS_Salarie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_Fact_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Ligne_Fact_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mandat_Salarie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mandat_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Demeure_Detail_Mise_Demeure" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Demeure_Detail_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Mise_Demeure_Detail_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_MotifsInfraction_TypeMotifsInfra" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Nat_Classe_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Nature_Operation" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Taux_Cot_Nature" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Reception_CI_Nature_Intemperie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Opposition_Detail_Opposition" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvHistorique_Partiellement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfraction_Partiellement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfractionPiece2_Partiellement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Taux_Cot_Periode" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PlanningPlanifie7_Willaya" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvHistorique_Totalement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfraction_Totalement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_RapportVisite_PvInfraction" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_PvInfractionPiece2_Totalement" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Reception_CI_Rejet_CI" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Salarie_Compte_Salarie" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Statut_Secteur" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Sessions_Generees_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_Utilisateur_UserGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.FK_UtilisateurPrest_UserGroupPrest" ManuallyRouted="false" />
+        <AssociationConnector Association="CacobatphModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
